@@ -1,0 +1,198 @@
+{
+	"siteVersion": "1.167.5",
+	"_meta": {
+		"sources": [
+			{
+				"json": "Experimentia",
+				"abbreviation": "XP",
+				"full": "Experimentia",
+				"url": "",
+				"authors": [
+					"ArrowThunder"
+				],
+				"convertedBy": []
+			}
+		],
+		"dateAdded": 1662118812,
+		"dateLastModified": 1662118812
+	},
+	"monster": [
+		{
+			"name": "Podge",
+			"shortName": true,
+			"source": "Experimentia",
+			"page": 141,
+			"size": [
+				"S"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					{
+						"tag": "gnome",
+						"prefix": "Rock"
+					}
+				]
+			},
+			"alignment": [
+				"L",
+				"G"
+			],
+			"ac": [
+				10,
+				{
+					"ac": 18,
+					"from": [
+						"Arcane Armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "7d6 + 21",
+				"average": 45
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 12,
+			"dex": 10,
+			"con": 16,
+			"int": 18,
+			"wis": 16,
+			"cha": 8,
+			"save": {
+				"con": "+5",
+				"int": "+6"
+			},
+			"skill": {
+				"arcana": "+6",
+				"investigation": "+8",
+				"perception": "+5",
+				"insight": "+7",
+				"persuasion": "+1"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 15,
+			"languages": [
+				"Common",
+				"Gnomish"
+			],
+			"cr": "2",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"Podge is a 1st-level spellcaster. Their spellcasting ability is Intelligence ({@dc 14}). They have the following artificer spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell fire bolt}",
+								"{@spell mending}",
+								"{@spell prestidigitation}",
+								"{@spell shocking grasp}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell cure wounds}",
+								"{@spell detect magic}",
+								"{@spell disguise self}",
+								"{@spell identify}",
+								"{@spell magic missile}",
+								"{@spell thunderwave}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell kinetic jaunt|SCC}",
+								"{@spell mirror image}",
+								"{@spell see invisibility}",
+								"{@spell shatter}"
+							],
+							"slots": 2
+						}
+					},
+					"ability": "int",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Gnome Cunning",
+					"entries": [
+						"Podge has advantage on all Intelligence, Wisdom and Charisma saving throws against magic."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Activate Armor",
+					"entries": [
+						"Podge invokes runes hidden in the interior of their vest, turning it into a full suit of arcane armor."
+					]
+				},
+				{
+					"name": "Lightning Gauntlet",
+					"entries": [
+						"{@atk ms} {@hit 6} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d8 + 1}) thunder damage, plus 9 ({@damage 2d8}) lightning damage. On hit, the target cannot take reactions until the start of their next turn."
+					]
+				},
+				{
+					"name": "Arm Cannon",
+					"entries": [
+						"{@atk rs} {@hit 6} to hit, range 120 ft., one target. {@h}11 ({@damage 2d10}) fire damage."
+					]
+				}
+			],
+			"fluff": {
+				"name": "Engineer",
+				"source": "WDH",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"entries": [
+											"An engineer who maintains and operates the Scarlet Marpenoth, a submarine, currently attached below Jarlaxle's flagship the Eyecatcher"
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"tokenUrl": "https://5e.tools/img/WDH/Engineer.png",
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"C",
+				"G"
+			],
+			"damageTags": [
+				"F",
+				"L",
+				"T"
+			],
+			"damageTagsSpell": [
+				"F",
+				"L",
+				"O",
+				"T"
+			],
+			"spellcastingTags": [
+				"CA"
+			],
+			"hasFluff": true
+		}
+	]
+}
